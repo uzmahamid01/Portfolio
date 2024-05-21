@@ -1,2 +1,2 @@
 ### Portfolio Website: 
-[here](https://people.tamu.edu/~uzma_hamid/)
+Click [here](https://people.tamu.edu/~uzma_hamid/) to access the website
