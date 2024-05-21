@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a49090;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a49090; /* Adjust background color for the fixed header */
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #a49090; /* Adjust background color for the fixed header */
+}
+
+.logo img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000; /* Adjust the color for the fixed header */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+main-content {
+    padding-top: 80px; /* Adjust padding to account for fixed header */
+    padding: 50px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    color: #555;
+    text-align: justify;
+}
+
+.prompt-box {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    position: relative;
+    background-color: #e6e3e3;
+    border-radius: 20px; /* Adjust the value to control the oval shape */
+    overflow: hidden; /* Ensure the oval shape is not distorted by content */
+}
+
+h2 {
+    font-size: 28px;
+    color: #4c7384;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #d8d3d3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons i {
+    font-size: 30px; /* Adjust the size as needed */
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2);
+}

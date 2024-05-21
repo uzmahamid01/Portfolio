@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background: none;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 4em;
+    background: transparent;
+    margin-top: 3%;
+}
+
+.navbar-brand-text {
+    font-size: 40px;
+    margin-left: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.about-heading {
+    text-align: center; 
+    margin-bottom: 1em; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+.about-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 2em;
+}
+.nav-left .logo img {
+    width: 200px; 
+    height: auto; 
+}
+
+
+
+.about-page-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+footer {
+    background-color: #f8f8f8;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 2em;
+    border-top: 1px solid #e7e7e7;
+}
+
+.social-iconsp {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-iconsp a {
+    text-decoration: none;
+    color: #878585;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-iconsp a:hover {
+    color: #555;
+}

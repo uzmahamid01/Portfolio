@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background: none;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 4em;
+    background: transparent;
+    margin-top: 3%;
+}
+
+.navbar-brand-text {
+    font-size: 40px;
+    margin-left: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.about-heading {
+    text-align: center; 
+    margin-bottom: 1em; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+.about-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 2em;
+}
+.nav-left .logo img {
+    width: 200px; 
+    height: auto; 
+}
+/* .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.col {
+    flex-basis: calc(50% - 1em);
+    margin-bottom: 2em;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-right: 1em;
+    width: calc(50% - 2em);
+    
+} */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; /* Center the row within the container */
+}
+
+.col {
+    flex: 1 1 calc(50% - 1em); /* Allow columns to grow and shrink, and take up 50% minus margin */
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+    margin-bottom: 2em;
+    padding: 0 0.5em; /* Add horizontal padding to maintain spacing between columns */
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 48%; /* Ensure cards take up the full width of their column */
+    margin: 0 0 1em 0; /* Add vertical margin only */
+    padding: 1em; /* Add padding inside the card */
+}
+
+
+.card:hover {
+    
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.images{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+.card-text {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-body {
+    padding: 30px;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 2em;
+    border-top: 1px solid #e7e7e7;
+}
+
+.social-iconsp {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-iconsp a {
+    text-decoration: none;
+    color: #878585;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-iconsp a:hover {
+    color: #555;
+}

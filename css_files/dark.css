@@ -1,0 +1,265 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+header {
+    background-color: #2b2929; 
+}
+
+header a {
+    color: white; 
+}
+/*--------education--------------*/
+
+ #education {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #c7bdbd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: block;
+    padding: 0;
+}
+
+.left_column,
+.right_column {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.left_column h2 {
+    margin-top: 8px;
+    color: #333;
+}
+
+.right_column h3,
+.right_column p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn2 {
+    background-color: #e74c3c; 
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/*----------------------about me------------------------------*/
+
+/* .right_column_ab img {
+    display: block;
+}
+
+.right_column_ab1 img2 {
+    display: contents;
+} */
+/*-----------------------------footer section----------------------*/
+
+.quote{
+    display: contents;
+}
+
+footer {
+    background-color: rgb(34, 32, 32);  
+    color: white; 
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+/*-----------------------------Portfolio----------------------------*/
+.proj_head1 {
+    text-align: center;
+    color: #000000;
+    font-family: 'The Seasons', serif;
+    font-weight: normal;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+
+h2.p1, h3.p1 {
+    margin-left: 160px; 
+    font-size: 20px;
+}
+
+.project1,
+.project2,
+.project3,
+.project4 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 40px;
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
+#proj1_left,
+#proj2_left,
+#proj3_left,
+#proj4_left img {
+    border-radius: 0px;
+    margin-left: 50px;
+}
+
+#proj1_right,
+#proj2_right,
+#proj3_right,
+#proj4_right {
+    width: 80%; 
+    margin-right: 0; 
+    text-align: justify;
+}
+
+#proj1_right ul,
+#proj2_right ul,
+#proj3_right ul,
+#proj4_right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#proj1_right li,
+#proj2_right li,
+#proj3_right li,
+#proj4_right li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+/*-----------------------------------------Qualification------------------------*/
+
+.skills {
+    padding: 20px;  
+    margin-left: 50px;
+    font-size: 26px;
+}
+
+.skills .term {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.skills span {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.More.About.me {
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#cv_right_column {
+    flex: 1;
+    margin-left: 50px;
+    position: relative; 
+}
+
+#cv_right_column img {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-top: 10px;
+    position: relative; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute; 
+    top: 20px; 
+    right: 200px; 
+    text-decoration: none;
+    background-color: #6e4646;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #8b5c5c;
+}
+
+#cv_right_column {
+    flex: 1;
+    margin-left: 0px;
+}
+
+#cv_right_column img {
+    width: 70%; 
+    height: auto;
+    border: blue;
+    margin-top: 20px; 
+    margin-left: 0;
+}
+
+/*------------------------------------*/
+
+
+.a1,
+.a3
+ {
+    font-style: italic;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    border: 1px solid #b6a7a7; 
+    background-color: #f1f1f1; 
+    color: black;
+    border-radius: 8px;
+    padding: 20px; 
+}
+
+.a2,
+.a4 {
+    font-style: italic;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    background-color: #b6a7a7; 
+    border: 1px solid #000; 
+    border-radius: 8px;
+    padding: 20px; 
+}
+
+.a1:hover,
+.a3:hover,
+.a2:hover,
+.a4:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+ 
