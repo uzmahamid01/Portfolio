@@ -1,4 +1,4 @@
 ## Portfolio Website: 
 Click either to access the website
-### [uzma hamid](https://people.tamu.edu/~uzma_hamid/) 
-### [uzma hamid](https://uzmahamid.netlify.app/)
+### [1. uzma_hamid](https://people.tamu.edu/~uzma_hamid/) 
+### [2. uzmahamid](https://uzmahamid.netlify.app/)
